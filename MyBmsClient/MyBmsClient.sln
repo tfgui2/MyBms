@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBmsClient", "MyBmsClient\MyBmsClient.csproj", "{A048B1D5-D2BC-4560-8875-911552D0D73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBmsClientEdit", "MyBmsClientEdit\MyBmsClientEdit.csproj", "{01ABE1CC-3978-4F81-8941-799CF668814F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyBmsClientCommon", "MyBmsClientCommon\MyBmsClientCommon.shproj", "{C8A6296E-3803-4413-BB94-6A7ECC8C1DDE}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MyBmsClientCommon\MyBmsClientCommon.projitems*{01abe1cc-3978-4f81-8941-799cf668814f}*SharedItemsImports = 4
+		MyBmsClientCommon\MyBmsClientCommon.projitems*{a048b1d5-d2bc-4560-8875-911552d0d73f}*SharedItemsImports = 4
+		MyBmsClientCommon\MyBmsClientCommon.projitems*{c8a6296e-3803-4413-bb94-6a7ecc8c1dde}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A048B1D5-D2BC-4560-8875-911552D0D73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A048B1D5-D2BC-4560-8875-911552D0D73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A048B1D5-D2BC-4560-8875-911552D0D73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A048B1D5-D2BC-4560-8875-911552D0D73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01ABE1CC-3978-4F81-8941-799CF668814F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ABE1CC-3978-4F81-8941-799CF668814F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ABE1CC-3978-4F81-8941-799CF668814F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ABE1CC-3978-4F81-8941-799CF668814F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAA375E1-FB86-44A0-A1F9-D3E5E341740D}
+	EndGlobalSection
+EndGlobal
